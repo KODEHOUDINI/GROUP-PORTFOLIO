@@ -1,0 +1,58 @@
+body {
+  overflow-x: hidden;
+}
+.groupSection {
+  background-image: url("leetopbg.svg");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+
+/* Float test start */
+.floating {
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  /* margin-left: 30px;
+  margin-top: 5px; */
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+/* Float test end */
+.customcard-left {
+  outline: none;
+  border-radius: 1.3rem;
+  box-shadow: rgb(0 0 0 / 31%) 12px 12px 8px 2px;
+}
+
+.customcard-right {
+  outline: none;
+  border-radius: 1.3rem;
+  box-shadow: rgb(0 0 0 / 31%) -11px 10px 8px 2px;
+}
+
+.customcard img {
+  border-radius: 1.3rem;
+}
+
+.leecustomCard2 img {
+  height: 55rem;
+  width: 36rem;
+  margin-top: -20rem;
+  margin-left: 5rem;
+}
+
+.member1 {
+  background-image: url("leebg.svg");
+  /* background-repeat: no-repeat; */
+}
